@@ -1,1 +1,8 @@
+Esta es una recolección de ideas para lo que será el trabajo parcial de Complejidad Algorítmica.
 
+	• Tema Seleccionado: Monitoreo de Rutas para Industrias Naviera (Idea de Jose)
+
+Problemática: Ahora último con el cierre del acceso hacía el mar rojo, se ha presentado una PROBLEMÁTICA para las Industrias Navieras. Básicamente tenemos que presentar una eficiencia para las navieras en cuanto a sus rutas y el tiempo que tarda en realizar un viaje. Tomaremos en Cuenta las siguientes variables:
+
+  1. Puerto: El puerto será nuestro principal NODO.
+  2. Recorrido (.km): Este será el recorrido realizado por la embarcación de un puerto a otro, siendo así nuestra ARISTA
