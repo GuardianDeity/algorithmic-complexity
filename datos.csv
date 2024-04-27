@@ -1,0 +1,200 @@
+﻿IMO Number;Name;Ship type;Port of Registry;Home Port;Verifier Country;Annual Time spent at sea [hours]
+6602898;OCEAN MAJESTY;Passenger ship;Madeira;Piraeus;France;2346.25
+6703343;EQUALITY;Other ship types;Beirut;Piraeus;Greece;1324
+7037806;IONIAN STAR;Ro-pax ship;PANAMA;Piraeus;France;2207
+7043843;TALOS;Ro-ro ship;Piraeus;Piraeus;Greece;3635
+7207451;SPORADES STAR;Ro-pax ship;PIRAEUS;Piraeus;Greece;2492
+7225910;AEGEAN ODYSSEY;Ro-pax ship;PANAMA CITY;Piraeus;Greece;2053.08
+7226952;FJARDVAGEN;Ro-ro ship;Mariehamn;Mariehamn;France;2556.7
+7230599;MARKO POLO;Ro-pax ship;Rijeka;Mariehamn;France;2450
+7305253;CORSICA VICTORIA;Ro-pax ship;Genova;Mariehamn;Italy;3615.17
+7310507;FIDELITY;Other ship types;Beirut;Mariehamn;Greece;2238
+7325095;LAMPEDUSA;Ro-pax ship;Catania;Catania;Italy;2176.3
+7325629;OCEAN DIAMOND;Passenger ship;Madeira;Catania;Greece;656.59
+7326893;MAWASHI EXPRESS;Other ship types;Panama;Catania;France;1247.75
+7346221;SUPERSTAR;Ro-pax ship;PIRAEUS 9939;Catania;Greece;3560
+7349039;CORSICA MARINA SECONDA;Ro-pax ship;Genova;Catania;Italy;351.15
+7350090;MOBY NIKI;Ro-pax ship;Napoli;Catania;Italy;2506.68
+7358755;MOBY KISS;Ro-pax ship;Napoli;Catania;Italy;2641.71
+7360605;MOBY VINCENT;Ro-pax ship;Napoli;Catania;Italy;1000.56
+7360617;SARDINIA VERA;Ro-pax ship;Genova;Catania;Italy;2197.95
+7360681;MOBY BABY TWO;Ro-pax ship;Napoli;Catania;Italy;847.25
+7361312;MOBY DREA;Ro-pax ship;Napoli;Catania;Italy;1602.02
+7361324;MOBY OTTA;Ro-pax ship;Napoli;Catania;Italy;1268
+7407324;ELEVATION;Other ship types;Beirut;Catania;Greece;3220.9
+7422881;YEOMAN BANK;Bulk carrier;Monrovia;Catania;Germany;4038.3
+7426045;KEFALONIA;Ro-pax ship;Piraeus;Poros, Cephalonia;Greece;2741.33
+7429669;AQUA BLUE;Ro-pax ship;piraeus;Poros, Cephalonia;Greece;5147
+7516773;GALAXY;Ro-pax ship;Limassol;Poros, Cephalonia;Greece;2762.65
+7527306;BOI BRANCO;Other ship types;LOME;BEIRUT;France;3512.13
+7527887;SMYRNA DI LEVANTE;Ro-pax ship;Piraeus;BEIRUT;Greece;547
+7528611;PELAGITIS;Ro-ro ship;Chios;BEIRUT;Korea, Republic of;4558
+7528635;CENK T;Ro-pax ship;PANAMA;BEIRUT;Japan;3769.03
+7529976;GEROITE NA SEVASTOPOL;Ro-ro ship;VARNA;BEIRUT;Germany;2639.35
+7602089;AF FRANCESCA;Ro-pax ship;Naples;Bari;Italy;3035
+7602120;MSC AURELIA;Ro-pax ship;Limassol;Bari;Germany;1935.8
+7615048;DUBROVNIK;Ro-pax ship;Rijeka;Bari;France;2298.82
+7615414;MOBY CORSE;Ro-pax ship;Livorno;Bari;Italy;1633.97
+7625811;OCEAN ENDEAVOUR;Passenger ship;Madeira;Bari;Greece;300
+7633143;POVL ANKER;Ro-pax ship;Roenne;Roenne;France;425.7
+7633155;ECKERO;Ro-pax ship;Grisslehamn;Grisslehamn;France;3613.62
+7633375;SUNNANVIK;Bulk carrier;Slite;Grisslehamn;Germany;5847.9
+7719430;MOROCCO SUN;Ro-pax ship;Tanger;Tanger;France;3012.18
+7724265;IOSIF K;Ro-ro ship;Piraeus;Piraeus;Greece;3679.3
+7802067;FESTIVO;Ro-ro ship;Las Palmas de Gran canaria;Malaga;France;1773
+7802794;GUBAL TRADER;Ro-pax ship;Limassol;Limassol;Greece;3819.22
+7803190;MOROCCO STAR;Ro-pax ship;TANGER;Limassol;France;3288.02
+7803205;KRONPRINS FREDERIK;Ro-pax ship;Rostock;Limassol;Greece;0
+7807744;RIGEL III;Ro-pax ship;Limassol;Durres / Albania;Greece;3388.68
+7813949;EUROPEAN STAR;Ro-pax ship;Panama;Durres / Albania;France;44
+7814046;KRITI I;Ro-pax ship;CHANIA 24;Durres / Albania;Greece;1681.81
+7814058;KRITI II;Ro-pax ship;CHANIA 25;Durres / Albania;Greece;1958.76
+7814462;WAWEL;Ro-pax ship;Nassau;Durres / Albania;Germany;5350.22
+7819113;YOSOR;Other ship types;Panama;Durres / Albania;France;1707
+7825978;PHIVOS;Ro-pax ship;Piraeus;Durres / Albania;Greece;1740
+7826788;RIGEL II;Ro-pax ship;Limassol;Durres / Albania;Greece;1763.97
+7826790;GNV AZZURRA;Ro-pax ship;Napoli;Durres / Albania;Germany;1743.9
+7826855;URD;Ro-pax ship;Kalundborg;Durres / Albania;Germany;4497.52
+7826867;STENA GOTHICA;Ro-pax ship;Copenhagen;Durres / Albania;Germany;4197.55
+7827213;CELESTYAL CRYSTAL;Passenger ship;Valletta;Durres / Albania;Germany;3993.6
+7827225;REGINA BALTICA;Ro-pax ship;Limassol;Durres / Albania;Italy;4494.37
+7901265;ROSELLA;Ro-pax ship;Mariehamn;Mariehamn;France;3429
+7901760;STENA EUROPE;Ro-pax ship;Fishguard;Mariehamn;Germany;4786.9
+7907245;STENA DANICA;Ro-pax ship;Gothenburg;Mariehamn;Germany;5228.86
+7907659;STENA VISION;Ro-pax ship;Limassol;Mariehamn;Germany;6792.48
+7907661;STENA SPIRIT;Ro-pax ship;Limassol;Mariehamn;Germany;7061.15
+7911533;MOBY DADA;Ro-pax ship;Napoli;Mariehamn;Italy;1956.78
+7927984;CELESTYAL OLYMPIA;Passenger ship;Valletta;Mariehamn;Germany;3169.5
+7928811;ALMARIYA;Ro-pax ship;Limassol;Almería;Greece;1922.83
+7931985;VICTORY;Other ship types;Beirut;Almería;Greece;3631
+7931997;BALTIVIA;Ro-pax ship;Nassau;Almería;Germany;3503.59
+8000226;WASA EXPRESS;Ro-pax ship;limassol;Almería;Greece;3875.82
+8000836;KUBROSLI Y;General cargo ship;Moroni;Almería;Greece;323
+8001024;CSL ELBE;Bulk carrier;Valletta;Almería;Greece;2702.9
+8007793;H.A.SKLENAR;Bulk carrier;Nassau;Almería;Germany;2131.6
+8009076;GULF LIVESTOCK 2;Other ship types;Panama;Panama;France;5686.2
+8019344;GANN;Passenger ship;Stavanger;|;Germany;1264
+8019368;VESTERALEN;Ro-pax ship;Tromso;Willemstad;Germany;6179.66
+8020599;AKRITAS;Ro-ro ship;LIMASSOL;Willemstad;Greece;5717.8
+8020642;MOBY ZAZA';Ro-pax ship;Livorno;Willemstad;Italy;2220.03
+8020927;PREVELIS;Ro-pax ship;RETHYMNO 6;Willemstad;Greece;5938.65
+8025343;SUPER SERVANT 4;Other ship types;Willemstad;Willemstad;France;3672.4
+8027573;ZEKO Y;General cargo ship;Zanzibar;Beirut;Greece;503
+8105404;RAMA H;General cargo ship;San Lorenzo;Beirut;France;2294.3
+8107000;MOHAMAD Y;General cargo ship;Basseterre;Beirut;Greece;329
+8110681;BONTRUP AMSTERDAM;Bulk carrier;Nassau;Beirut;Germany;4470
+8116972;LILY-HA;General cargo ship;lome;Beirut;France;670.5
+8122957;OYA STAR;Other ship types;Panama;Hong Kong;Italy;647.28
+8125454;ARAL;Chemical tanker;VALLETTA;VALLETTA;France;3869.7
+8130875;MIGHTY SERVANT 1;Other ship types;Willemstad;Hong Kong;Greece;0
+8130899;MIGHTY SERVANT 3;Other ship types;Willemstad;Hong Kong;Greece;2059
+8201480;ARTANIA;Passenger ship;Nassau;Hong Kong;Germany;5461
+8201624;MSC IRIS;Container ship;Panama;Hong Kong;Germany;188.8
+8201648;MSC EYRA;Container ship;Panama;Hong Kong;Germany;317
+8202018;IRON DESTINY;Bulk carrier;Monrovia;Monrovia;France;194.4
+8202525;SEA DOVE;Bulk carrier;Freetown;Hong Kong;Greece;668.2
+8203660;VALMIERA;General cargo ship;;Hong Kong;Greece;181
+8204250;NABOLSI;Other ship types;Beirut;Hong Kong;Greece;3465
+8208763;POETA LOPEZ ANGLADA;Ro-pax ship;Limassol;Hong Kong;Italy;4031.65
+8209626;SEA GLORY;General cargo ship;MALAKAL HARBOR;;France;669.13
+8214889;HAJE HALIMEH;General cargo ship;Moroni;Hong Kong;Greece;184.9
+8219906;SCILLA;Ro-pax ship;Catania;Messina;Italy;1081
+8219918;VILLA;Ro-pax ship;Catania;Messina;Italy;1589
+8300169;SLAVYANIN;Ro-ro ship;Novorossiysk;N/A;Greece;5943.24
+8300389;HAPPY BUCCANEER;General cargo ship;Amsterdam;Amsterdam;France;3704
+8303989;GHENA;Other ship types;Panama;Panama;France;433.1
+8306486;MEGA SMERALDA;Ro-pax ship;Genova;Hong Kong;Italy;5550.92
+8306498;MEGA ANDREA;Ro-pax ship;Genova;Hong Kong;Italy;4912.88
+8307947;TAHA-Y;General cargo ship;FREETOWN;Hong Kong;Greece;729.95
+8309397;BONTRUP PEARL;General cargo ship;Nassau;Hong Kong;Germany;3387
+8311120;ICE RUNNER;Refrigerated cargo carrier;Majuro;Majuro;Greece;393
+8311900;VILNIUS;Ro-pax ship;Panama;Hong Kong;France;1563.75
+8311912;GREIFSWALD;Ro-pax ship;Panama;Chernomorsk;France;169.5
+8317942;COLOR VIKING;Ro-pax ship;Sandefjord;Hong Kong;Germany;2512.5
+8317954;STENA NAUTICA;Ro-pax ship;Gothenburg;Hong Kong;Germany;5669.88
+8320573;MEGA REGINA;Ro-pax ship;Genova;Hong Kong;Italy;2657.92
+8401133;MAESTRO SUN;Ro-ro ship;Majuro;Majuro;Greece;400.8
+8401444;SAILOR;Ro-pax ship;Tallinn;Tallinn;France;3872.8
+8401523;PROFESSOR B;General cargo ship;Moroni;Hong Kong;Greece;208.2
+8405191;MARE DI LEVANTE;Ro-pax ship;Piraeus;Zakynthos;Greece;2828.33
+8408648;ADMIRAL;General cargo ship;Moroni;Hong Kong;Greece;244.3
+8408650;SPRING;General cargo ship;Moroni;Hong Kong;Greece;435.7
+8413875;MSC GABRIELLA;Container ship;Panama;Hong Kong;Germany;1315.34
+8414726;ZHEN HUA 24;Other ship types;Hong Kong;Hong Kong;China;0
+8414738;ZHEN HUA 23;Other ship types;Hong Kong;Hong Kong;China;0
+8415794;SEA PATRIS;Vehicle carrier;Panama;Hong Kong;Greece;4373.48
+8416308;GNV BLU;Ro-pax ship;Napoli;Hong Kong;Italy;3696
+8417118;SAFFET BEY;Ro-ro ship;;Napoli;Greece;4561
+8417625;POLARIS-2;Other ship types;Panama City;ISTANBUL;France;1254.7
+8418174;RAUTARUUKKI;Other ship types;Helsinki;ISTANBUL;Germany;3350.39
+8418265;BR BROTHER;General cargo ship;Moroni;ISTANBUL;Greece;698
+8420842;WOLIN;Ro-pax ship;Limassol;ISTANBUL;Germany;5556.18
+8420878;WIND STAR;Passenger ship;Nassau;ISTANBUL;Germany;4675.3
+8500484;ANDREAS KALVOS;Ro-pax ship;PIRAEUS  10801;POROS, CEPHALONIA, GREECE;Greece;2707.67
+8500630;ATLANTIC LADY;Refrigerated cargo carrier;Bolshoy port Saint Petersburg;Bolshoy port Saint Petersburg;Greece;2139.1
+8501464;ULUSOY-5;Ro-ro ship;ISTANBUL;ISTANBUL;Greece;4034.4
+8501957;GNV ARIES;Ro-pax ship;Naples;Genoa;Italy;3430
+8502391;PRINCESS SEAWAYS;Ro-pax ship;Kobenhavn;ISTANBUL;Germany;5792.07
+8502406;KING SEAWAYS;Ro-pax ship;Kobenhavn;ISTANBUL;Germany;5218.83
+8502470;ACQUA STELLA;General cargo ship;Panama;ISTANBUL;Greece;426
+8503503;STEEL;Other ship types;Helsinki;ISTANBUL;Germany;2986.13
+8503797;GNV ANTARES;Ro-pax ship;Naples;Genoa;Italy;2984
+8505836;MSC GIOVANNA;Container ship;Panama;Genoa;Germany;3554.55
+8506311;GNV ALLEGRA;Ro-pax ship;Genoa;Genoa;Italy;3516
+8509557;NOVIY SVET;Refrigerated cargo carrier;Bolshoy port of St.Petersburg;Bolshoy port of St.Petersburg;Greece;1726
+8512152;AL ANDALUS EXPRESS;Ro-pax ship;LIMASSOL;Valletta;Italy;2060.78
+8512891;MSC AUGUSTA;Container ship;Panama;Valletta;Germany;406.5
+8512906;MSC ADELE;Container ship;Panama;Valletta;Germany;2737.63
+8517580;GOLDEN BIRD;General cargo ship;Basseterre;Valletta;France;174
+8517592;LEPTIS STAR;Other ship types;Panama;Valletta;Italy;924
+8519710;SILVER SUN;Vehicle carrier;Panama;Valletta;France;3725.09
+8520824;AMADORE;Bulk carrier;Valletta;Valletta;Greece;80.8
+8520836;DAYTONA-H;Bulk carrier;Moroni;HONG KONG;Greece;546.4
+8521232;AMBIENCE;Passenger ship;Nassau;Valletta;Germany;3151.8
+8521397;MSC FLORIANA;Container ship;Panama;HONG KONG;Germany;1836
+8521402;MSC ANNAMARIA;Container ship;Panama;HONG KONG;Germany;797
+8601915;MEGA VICTORIA;Ro-pax ship;Genova;Genova;Italy;4555
+8604345;MED STAR;Ro-pax ship;Tanger;Tanger;France;1281.7
+8604711;JAN SNIADECKI;Ro-pax ship;Limassol;HONG KONG;Germany;4173.02
+8606109;HALIM M;General cargo ship;MALAKAL HARBOR;MALAKAL HARBOR;Greece;425.42
+8606111;SEREF KURU;General cargo ship;Panama;Trelleborg;France;482.92
+8608200;MSC LEVINA;Container ship;Panama;Trelleborg;Germany;422.8
+8611984;CENK CAR;Vehicle carrier;VALLETTA;Trelleborg;Japan;571.05
+8616336;BLUE HORIZON;Ro-pax ship;Piraeus;Trelleborg;France;3327.17
+8618293;MSC VERONIQUE;Container ship;Panama;HONG KONG;Germany;4246.42
+8618358;HUCKLEBERRY FINN;Ro-pax ship;Trelleborg;Trelleborg;France;5857
+8700242;ZHEN HUA 25;Other ship types;Hong Kong;Hong Kong;China;0
+8700254;ZHEN HUA 26;Other ship types;HONG KONG;HONG KONG;China;0
+8700266;ZHEN HUA 28;Other ship types;Hong Kong;Hong Kong;China;0
+8700280;AMERA;Passenger ship;Nassau;Marseille;Germany;5223.3
+8700498;ZHEN HUA 29;Other ship types;Hong Kong;Marseille;China;0
+8700723;ISABELLE;Ro-pax ship;Riga;Riga;France;54.9
+8700785;WIND SURF;Passenger ship;Nassau;Marseille;Germany;5129.6
+8701674;PEARL SEAWAYS;Ro-pax ship;Copenhagen;Marseille;Germany;6628.1
+8702446;PETAR HEKTOROVIC;Ro-pax ship;Rijeka;Marseille;France;3361.23
+8703232;TOM SAWYER;Ro-pax ship;Rostock;Marseille;France;6230
+8704406;NISSOS RODOS;Ro-pax ship;Piraeus;Marseille;Greece;3178.56
+8705395;MEDITERRANEE;Ro-pax ship;Ajaccio;Marseille;France;1580.98
+8705709;SANSOVINO;Ro-pax ship;Catania;Catania;Italy;2322.5
+8706789;ICE GLACIER;Refrigerated cargo carrier;Majuro;Majuro;Greece;1577
+8707329;BRETAGNE;Ro-pax ship;Morlaix;Saint-Malo;France;4202.47
+8707343;STAR PRIDE;Passenger ship;Nassau;Hong Kong, China;Germany;2100
+8710182;ZHEN HUA 27;Other ship types;HONGKONG;Hong Kong, China;China;0
+8711306;ANDREY OSIPOV;General cargo ship;Arkhangelsk;Arkhangelsk;Greece;694.25
+8712518;GNV CRISTAL;Ro-pax ship;Napoli;Napoli;Italy;4031
+8712520;GNV ATLAS;Ro-pax ship;Naples;Hong Kong;Germany;5476.4
+8712635;NISSOS SAMOS;Ro-pax ship;Piraeus;Hong Kong;Greece;3832.5
+8714205;MSC SABRINA III;Container ship;Panama;Hong Kong;Germany;1166
+8714970;ZHEN HUA 15;Other ship types;Hong Kong;Hong Kong;China;0
+8715259;SILJA SERENADE;Ro-pax ship;Mariehamn;Mariehamn;France;5072.14
+8715857;MSC SARISKA V;Container ship;Panama;Stockholm;Germany;650.7
+8715869;MSC FEDERICA;Container ship;Panama;Stockholm;Germany;3217
+8715871;MSC PILAR;Container ship;Panama;Stockholm;Germany;4181.3
+8716100;POLARIS;Ro-ro ship;Saint-John's;Stockholm;Greece;3490
+8719188;VIKING CINDERELLA;Ro-pax ship;Stockholm;Stockholm;France;6580
+8800195;LA BELLE DES OCEANS;Passenger ship;Bruxelles;Stockholm;France;5692.56
+8801620;GOLDEN ROSE;General cargo ship;Moroni;Stockholm;France;305.4
+8802090;BALTIC SUMMER;Refrigerated cargo carrier;Nassau;Stockholm;France;667.5
+8803769;SILJA SYMPHONY;Ro-pax ship;Stockholm;Stockholm;France;6268.14
+8804529;GREEN SELJE;Refrigerated cargo carrier;Nassau;Stockholm;Germany;1605.5
+8804531;GREEN KARMØY;Refrigerated cargo carrier;Nassau;Stockholm;Germany;1763.75
