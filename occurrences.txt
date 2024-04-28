@@ -6,3 +6,15 @@ Problemática: Ahora último con el cierre del acceso hacía el mar rojo, se ha 
 
   1. Puerto: El puerto será nuestro principal NODO.
   2. Recorrido (.km): Este será el recorrido realizado por la embarcación de un puerto a otro, siendo así nuestra ARISTA
+
+Links: 
+	https://www.mundomaritimo.cl/noticias/desvios-de-rutas-maritimas-generan-preocupacion-por-el-aumento-de-emisiones-de-carbono
+	https://www.abc.es/internacional/eson-huties-yemen-eeuu-reino-unido-atacado-20240112063958-nt.html
+	https://www.icontainers.com/es/puertos-mas-importantes-del-mundo/
+	https://logistica.cdecomunicacion.es/maritimo/138751/cerrar-la-ruta-del-mar-rojo-podria-reducir-la-capacidad-de-transporte-de-las-empresas-europeas-un-20
+
+Para las fuentes:
+	https://www.scribbr.es/citar/generador/folders/6aRXKmFXNUeV72k7fCvNua/lists/5aiwoRedOUhAlAIC21sJOW/
+
+Link del informe: 
+	https://upcedupe-my.sharepoint.com/:w:/r/personal/u202214522_upc_edu_pe/_layouts/15/Doc.aspx?sourcedoc=%7BAC74C61D-B9A8-4E8E-9A8E-2AC992F333D6%7D&file=Informe_CA_TP1_UXXXXXXXX.docx&action=default&mobileredirect=true&DefaultItemOpen=1&login_hint=u202214522%40upc.edu.pe&ct=1714187420795&wdOrigin=OFFICECOM-WEB.START.EDGEWORTH&cid=70c7712d-1e60-409b-8e48-78bd9bb6b089&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=992c4757-fec0-4326-95ea-5cb48128b086
