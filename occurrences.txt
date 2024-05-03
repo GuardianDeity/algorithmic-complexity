@@ -13,6 +13,24 @@ Links:
 	https://www.icontainers.com/es/puertos-mas-importantes-del-mundo/
 	https://logistica.cdecomunicacion.es/maritimo/138751/cerrar-la-ruta-del-mar-rojo-podria-reducir-la-capacidad-de-transporte-de-las-empresas-europeas-un-20
 
+Observaciones y Consideraciones después del TP... (15):
+
+	GRAVEDAD:
+		1. Seguro (VERDE)
+		2. Propia desición (AMARILLO)
+		3. Peligroso (ROJO)
+
+	1. Buscar o crear una DataSet en la que se encuentre la GRAVEDAD de un puerto a otro. Por ejemplo: para ir de NODO1 a NODO 5, la ruta base pasa por NODO 2 y NODO 4, pero
+	NODO 4 es peligroso (ROJO): nueva ruta NODO 1 -> NODO 2 -> NODO 3 -> NODO 5
+	2. Mejorar los mockups (Opcional y solo si quiero que el trabajo final sea más completo, además solo si es necesario levantar algunas observaciones).
+	3. Mejorar el gephi (?).
+	4. Presentar el aplicativo, no es una página, se tiene que hacer un APP¿ podemos usar el flask en python¿¿¿¿
+	5. Presentar consideraciones como color, tipografíal, etc...
+	6. Mencionar que se usará SCRUM.
+	7. Mejorar la descripción de los DataSets.
+
+	
+
 Para las fuentes:
 	https://www.scribbr.es/citar/generador/folders/6aRXKmFXNUeV72k7fCvNua/lists/5aiwoRedOUhAlAIC21sJOW/
 
