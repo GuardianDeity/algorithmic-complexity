@@ -6,13 +6,13 @@ class Map:
     def __init__(self, master):
         self.master = master
         self.master.title("Ruta óptima")
-        self.master.geometry("1000x600")  # Ventana más grande para mejor visualización
-        self.map_image = tk.PhotoImage(file="mapa.png")  # Ajusta la ruta al archivo de tu imagen
+        self.master.geometry("1000x600") 
+        self.map_image = tk.PhotoImage(file="mapa.png")  
 
         self.canvas = tk.Canvas(self.master, width=1000, height=600)
         self.canvas.pack()
 
-        # Colocar la imagen de fondo
+        
         self.canvas.create_image(0, 0, anchor=tk.NW, image=self.map_image)
 
         self.ports = {}
@@ -99,27 +99,31 @@ class Map:
             x1, y1 = self.ports[route[i]]
             x2, y2 = self.ports[route[i+1]]
 
-            # Calcular el número de pasos para una animación suave
+            
             dx = x2 - x1
             dy = y2 - y1
-            steps = int(max(abs(dx), abs(dy)) // 2)  # Convertir a entero
+            steps = int(max(abs(dx), abs(dy)) // 2)  
 
             for j in range(steps):
                 x_interp = x1 + (dx * j / steps)
                 y_interp = y1 + (dy * j / steps)
                 self.canvas.coords(self.boat, x_interp-10, y_interp-10, x_interp+10, y_interp+10)
                 self.master.update()
-                self.master.after(20)  # delay 30ms
+                self.master.after(20)  # velocidad para barcola
 
 root = tk.Tk()
 map_widget = Map(root)
 
-# Agregar puertos con coordenadas ajustadas para reflejar mejor el mapa mundial
-map_widget.add_puerto('Portugal', (63.0, 2.5))  # Ajustado para mejor visualización
-map_widget.add_puerto('Hamburg', (83.6, 30.0))   # Ajustado para mejor visualización
-map_widget.add_puerto('Le Havre', (70.5, 15.1))   # Ajustado para mejor visualización
+#puertos:
+#europa
+map_widget.add_puerto('Portugal', (63.0, 2.5))  
+map_widget.add_puerto('Hamburg', (83.6, 30.0))   
+map_widget.add_puerto('Le Havre', (70.5, 15.1))
 
-# Agregar puertos en América
+#africa
+map_widget.add_puerto('Nuakchot', (34.0,-8.0))  
+
+#america
 map_widget.add_puerto('New York', (55.7128, -106.0060))
 map_widget.add_puerto('Los Angeles', (53.0522, -169.2437))
 map_widget.add_puerto('Panama City', (20.9824, -109.5199))
@@ -128,17 +132,17 @@ map_widget.add_puerto('Rio de Janeiro', (-10.9068, -45.1729))
 map_widget.add_puerto('Guayana Francesa', (16.9068, -65.1729))
 map_widget.add_puerto('Callao', (0.9068, -106.1729))
 
-# Agregar aristas entre los puertos
+#aristas:
+#europa
 map_widget.add_arista('Portugal', 'Hamburg', 350)
 map_widget.add_arista('Portugal', 'Le Havre', 200)
 map_widget.add_arista('Hamburg', 'Le Havre', 450)
-
-# Conexiones adicionales entre puertos incluyendo América
+map_widget.add_arista('Nuakchot', 'Portugal',300)
+#america - europa
 map_widget.add_arista('Portugal', 'New York', 6000)
 map_widget.add_arista('New York', 'Panama City', 3500)
 map_widget.add_arista('Panama City', 'Los Angeles', 4800)
 map_widget.add_arista('Buenos Aires', 'Rio de Janeiro', 2000)
-
 map_widget.add_arista('Panama City', 'Guayana Francesa', 1000)
 map_widget.add_arista('Guayana Francesa', 'Rio de Janeiro', 500)
 
