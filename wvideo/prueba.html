@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prueba.css">
+</head>
+
+<body>
+    <video src="bg.mp4" autoplay loop playsinline muted></video>
+    <div id="rutas-maritimas">
+        <h2>Rutas Marítimas</h2>
+        <form>
+            <label for="puerto-origen">Puerto de Origen:</label>
+            <select id="puerto-origen" name="puerto-origen" onchange="mostrarOpcionOrigen('puerto-origen')">
+                <option value="00">Seleccionar pa&#237;s</option>
+                <option value="DE">Alemania</option>
+                <option value="AR">Argentina</option>
+                <option value="AU">Australia</option>
+                <option value="BE">B&#233;lgica</option>
+                <option value="BR">Brasil</option>
+                <option value="CA">Canad&#225;</option>
+                <option value="CL">Chile</option>
+                <option value="CN">China</option>
+                <option value="CO">Colombia</option>
+                <option value="KR">Corea del Sur (Rep&#250;blica de Corea)</option>
+                <option value="CR">Costa Rica</option>
+                <option value="EC">Ecuador</option>
+                <option value="SV">El Salvador</option>
+                <option value="AE">Emiratos &#193;rabes Unidos</option>
+                <option value="ES">Espa&#241;a</option>
+                <option value="US">Estados Unidos</option>
+                <option value="RU">Federaci&#243;n Rusa</option>
+                <option value="FI">Finlandia</option>
+                <option value="FR">Francia</option>
+                <option value="GH">Ghana</option>
+                <option value="GT">Guatemala</option>
+                <option value="HN">Honduras</option>
+                <option value="IN">India</option>
+                <option value="ID">Indonesia</option>
+                <option value="IL">Israel</option>
+                <option value="IT">Italia</option>
+                <option value="JP">Jap&#243;n</option>
+                <option value="MA">Marruecos</option>
+                <option value="MX">M&#233;xico</option>
+                <option value="NI">Nicaragua</option>
+                <option value="NO">Noruega</option>
+                <option value="NL">Pa&#237;ses Bajos (Holanda)</option>
+                <option value="PA">Panam&#225;</option>
+                <option value="PT">Portugal</option>
+                <option value="GB">Reino Unido</option>
+                <option value="DO">Rep&#250;blica Dominicana</option>
+                <option value="SG">Singapur</option>
+                <option value="ZA">Sud&#225;frica</option>
+                <option value="SE">Suecia</option>
+                <option value="TW">Taiw&#225;n</option>
+                <option value="TR">Turqu&#237;a</option>
+            </select>
+            <div id="opcionesorigenes"></div>
+            <label for="puerto-destino">Puerto de Destino:</label>
+            <select id="puerto-destino" name="puerto-destino" onchange="mostrarOpcionDestino('puerto-destino')">
+                <option value="00">Seleccionar pa&#237;s</option>
+                <option value="DE">Alemania</option>
+                <option value="AR">Argentina</option>
+                <option value="AU">Australia</option>
+                <option value="BE">B&#233;lgica</option>
+                <option value="BR">Brasil</option>
+                <option value="CA">Canad&#225;</option>
+                <option value="CL">Chile</option>
+                <option value="CN">China</option>
+                <option value="CO">Colombia</option>
+                <option value="KR">Corea del Sur (Rep&#250;blica de Corea)</option>
+                <option value="CR">Costa Rica</option>
+                <option value="EC">Ecuador</option>
+                <option value="SV">El Salvador</option>
+                <option value="AE">Emiratos &#193;rabes Unidos</option>
+                <option value="ES">Espa&#241;a</option>
+                <option value="US">Estados Unidos</option>
+                <option value="RU">Federaci&#243;n Rusa</option>
+                <option value="FI">Finlandia</option>
+                <option value="FR">Francia</option>
+                <option value="GH">Ghana</option>
+                <option value="GT">Guatemala</option>
+                <option value="HN">Honduras</option>
+                <option value="IN">India</option>
+                <option value="ID">Indonesia</option>
+                <option value="IL">Israel</option>
+                <option value="IT">Italia</option>
+                <option value="JP">Jap&#243;n</option>
+                <option value="MA">Marruecos</option>
+                <option value="MX">M&#233;xico</option>
+                <option value="NI">Nicaragua</option>
+                <option value="NO">Noruega</option>
+                <option value="NL">Pa&#237;ses Bajos (Holanda)</option>
+                <option value="PA">Panam&#225;</option>
+                <option value="PT">Portugal</option>
+                <option value="GB">Reino Unido</option>
+                <option value="DO">Rep&#250;blica Dominicana</option>
+                <option value="SG">Singapur</option>
+                <option value="ZA">Sud&#225;frica</option>
+                <option value="SE">Suecia</option>
+                <option value="TW">Taiw&#225;n</option>
+                <option value="TR">Turqu&#237;a</option>
+            </select>
+            <div id="opcionesdestinos"></div>
+            <button type="submit">Enviar</button>
+        </form>
+        <script>
+            function mostrarOpcionOrigen(selectId) {
+                var seleccion = document.getElementById(selectId).value;
+                var contenedor = document.getElementById('opcionesorigenes');
+    
+                if (seleccion) {
+                    var label = document.createElement('label');
+                    label.setAttribute('for', 'nuevaOpcion');
+                    label.textContent = 'Selecciona una nueva opción:';
+    
+                    var select = document.createElement('select');
+                    select.name = 'nuevaOpcion';
+    
+                    var opciones;
+                    if (selectId === 'puerto-origen') {
+                        if (seleccion === 'FR') {
+                            opciones = [
+                                { value: 'origen1-1', text: 'Subopción Origen 1-1' },
+                                { value: 'origen1-2', text: 'Subopción Origen 1-2' },
+                                { value: 'origen1-3', text: 'Subopción Origen 1-3' }
+                            ];
+                        } else if (seleccion === 'origen2') {
+                            opciones = [
+                                { value: 'origen2-1', text: 'Subopción Origen 2-1' },
+                                { value: 'origen2-2', text: 'Subopción Origen 2-2' },
+                                { value: 'origen2-3', text: 'Subopción Origen 2-3' }
+                            ];
+                        } else if (seleccion === 'origen3') {
+                            opciones = [
+                                { value: 'origen3-1', text: 'Subopción Origen 3-1' },
+                                { value: 'origen3-2', text: 'Subopción Origen 3-2' },
+                                { value: 'origen3-3', text: 'Subopción Origen 3-3' }
+                            ];
+                        }
+                    } 
+    
+                    // Agrega las opciones al nuevo select
+                    opciones.forEach(function(opcion) {
+                        var opt = document.createElement('option');
+                        opt.value = opcion.value;
+                        opt.textContent = opcion.text;
+                        select.appendChild(opt);
+                    });
+    
+                    contenedor.appendChild(label);
+                    contenedor.appendChild(select);
+                }
+            }
+        </script>
+        <script>
+            function mostrarOpcionDestino(selectId) {
+                var seleccion = document.getElementById(selectId).value;
+                var contenedor = document.getElementById('opcionesdestinos');
+    
+                if (seleccion) {
+                    var label = document.createElement('label');
+                    label.setAttribute('for', 'nuevaOpcion');
+                    label.textContent = 'Selecciona una nueva opción:';
+    
+                    var select = document.createElement('select');
+                    select.name = 'nuevaOpcion';
+    
+                    var opciones;
+                    if (selectId === 'puerto-destino') {
+                        if (seleccion === 'FR') {
+                            opciones = [
+                                { value: 'origen1-1', text: 'Subopción Origen 1-1' },
+                                { value: 'origen1-2', text: 'Subopción Origen 1-2' },
+                                { value: 'origen1-3', text: 'Subopción Origen 1-3' }
+                            ];
+                        } else if (seleccion === 'origen2') {
+                            opciones = [
+                                { value: 'origen2-1', text: 'Subopción Origen 2-1' },
+                                { value: 'origen2-2', text: 'Subopción Origen 2-2' },
+                                { value: 'origen2-3', text: 'Subopción Origen 2-3' }
+                            ];
+                        } else if (seleccion === 'origen3') {
+                            opciones = [
+                                { value: 'origen3-1', text: 'Subopción Origen 3-1' },
+                                { value: 'origen3-2', text: 'Subopción Origen 3-2' },
+                                { value: 'origen3-3', text: 'Subopción Origen 3-3' }
+                            ];
+                        }
+                    } 
+    
+                    // Agrega las opciones al nuevo select
+                    opciones.forEach(function(opcion) {
+                        var opt = document.createElement('option');
+                        opt.value = opcion.value;
+                        opt.textContent = opcion.text;
+                        select.appendChild(opt);
+                    });
+    
+                    contenedor.appendChild(label);
+                    contenedor.appendChild(select);
+                }
+            }
+        </script>
+    </div>
+</body>
+
+</html>
