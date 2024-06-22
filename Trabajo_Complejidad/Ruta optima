@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ruta óptima</title>
+</head>
+<body>
+    <h1>Buscar ruta óptima</h1>
+    <form action="/find_route" method="POST">
+        <label for="start_port">Puerto de inicio:</label>
+        <input type="text" id="start_port" name="start_port" required>
+        <br><br>
+        <label for="end_port">Puerto de destino:</label>
+        <input type="text" id="end_port" name="end_port" required>
+        <br><br>
+        <input type="submit" value="Buscar ruta">
+    </form>
+</body>
+</html>
