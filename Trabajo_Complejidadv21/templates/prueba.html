@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prueba</title>
+  </head>
+  <body>
+    {% if route %}
+      <h1>Ruta encontrada:</h1>
+      <ul>
+        {% for port in route %}
+          <li>{{ port }}</li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <h1>No se encontró una ruta</h1>
+    {% endif %}
+  </body>
+</html>
